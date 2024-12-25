@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-lessons-2"
+version = "0.1.0"
+description = "database used example"
+authors = ["shulga-dev <oleh53931@proton.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
